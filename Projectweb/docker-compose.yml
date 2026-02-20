@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  webdriverio:
+    image: webdriverio-tests
+    build: .
+    container_name: webdriverio-tests
