@@ -1,0 +1,54 @@
+# =========================
+# Node modules
+# =========================
+node_modules/
+
+# =========================
+# WebdriverIO logs & reports
+# =========================
+logs/
+wdio-logs/
+allure-results/
+allure-report/
+
+# =========================
+# Test artifacts
+# =========================
+errorShots/
+screenshots/
+videos/
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# NPM & build
+# =========================
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp

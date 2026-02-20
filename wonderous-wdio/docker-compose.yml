@@ -1,0 +1,4 @@
+services:
+  wonderous:
+    build: .
+    container_name: wonderous-tests

@@ -1,0 +1,48 @@
+# =========================
+# Node / npm
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# WebdriverIO artifacts
+# =========================
+logs/
+wdio-logs/
+errorShots/
+screenshots/
+videos/
+allure-results/
+allure-report/
+
+# =========================
+# Docker
+# =========================
+*.log
+.dockerignore
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Coverage / temp
+# =========================
+coverage/
+*.tmp
+*.temp
